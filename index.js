@@ -132,10 +132,10 @@ app.post("/send", upload.array("images", 8), (request, response) => {
       pass: "twgzuhqfivzgtkqv",
     },
   });
-  // alkaseralamni@gmail.com
+
   const mail_option = {
     from: request.body.email || "alkaser@gmail.com",
-    to: "mansourmahmoud77a@gmail.com",
+    to: "alkaseralamni@gmail.com",
     subject: "عرض اسعار",
     text: "عرض اسعار", // plain text body
     html: `
